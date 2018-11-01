@@ -14,13 +14,27 @@ body, html{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     top: 0%;
     z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 32px;
     color: white;
-    margin: 28px 0 0 73px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+svg{
+   
+    height: 50px;
+    position: relative;
+    fill: #fff;
+
+
+
 }
 
 .header-right{
@@ -59,6 +73,7 @@ transform: scale(.90);
 .horizontal {
     grid-column: span 2;
 }
+
 
 .vertical{
     grid-row: span 2;
