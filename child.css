@@ -68,7 +68,7 @@ svg{
 }
 
 .container div:hover{
-transform: scale(1.25);
+transform: scale(1.25) !important;
 
 }
 .horizontal {
@@ -165,6 +165,7 @@ p{
     position: relative;
     fill: #000;
     padding-left: 6px;
+    padding-right: 6px;
 }
 
 .container > div:nth-child(1n) {
