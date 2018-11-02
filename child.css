@@ -25,13 +25,14 @@ body, html{
     font-size: 32px;
     color: white;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 svg{
    
-    height: 50px;
+    height: 70px;
     position: relative;
     fill: #fff;
+    margin-top: 13px;
 }
 .header-right{
     float:right;
@@ -63,6 +64,7 @@ svg{
 
 .container div:hover{
 transform: scale(1.25) !important;
+z-index: 10;
 
 }
 .horizontal {
@@ -160,6 +162,7 @@ p{
     fill: #000;
     padding-left: 6px;
     padding-right: 6px;
+    margin-top: 7px;
 }
 
 .container > div:nth-child(1n) {
@@ -179,7 +182,7 @@ p{
     position: relative;
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: #008781;
     transform: rotate(-45deg);
   }
   .heart::before, .heart::after {

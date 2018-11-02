@@ -1,5 +1,5 @@
 window.onload = function() {
-  document.getElementById('load').style.display = 'none';
+ document.getElementById('load').style.display = 'none';
 }
 
 var prevScrollpos = window.pageYOffset;
