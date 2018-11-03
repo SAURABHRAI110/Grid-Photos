@@ -124,6 +124,9 @@ z-index: 10;
         font-size: 20px;
 
     }
+    .love{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 800px) {
     .textclip{
@@ -133,6 +136,9 @@ z-index: 10;
     p{
         font-size: 16px;
 
+    }
+    .love{
+        font-size: 10px;
     }
 }
     
@@ -153,9 +159,18 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: #000;
-    margin-bottom: 80px;
+    margin-bottom: -6px;
 }
 
+.shekhar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 70px;
+}
 .lovebyte{
     height: 25px;
     position: relative;
